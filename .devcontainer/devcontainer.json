@@ -1,0 +1,19 @@
+{
+    "name": "OpenSeeD",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "runArgs": [
+        "--rm",
+        "--gpus",
+        "all"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.black-formatter"
+            ]
+        }
+    }
+}
